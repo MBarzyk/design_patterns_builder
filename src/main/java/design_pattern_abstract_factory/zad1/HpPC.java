@@ -1,4 +1,4 @@
-package design_patern_abstract_factory.zad1;
+package design_pattern_abstract_factory.zad1;
 
 public class HpPC extends AbstractPC {
     public HpPC(String name, int cpuPower, double gpuPower, boolean isOverclocked) {

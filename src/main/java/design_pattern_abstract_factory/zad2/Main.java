@@ -1,4 +1,4 @@
-package design_patern_abstract_factory.zad2;
+package design_pattern_abstract_factory.zad2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
