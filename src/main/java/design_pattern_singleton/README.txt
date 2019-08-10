@@ -69,22 +69,7 @@ Stwórz:
 Wykonaj singletona na 3 sposoby:
 eager
 lazy
-używając enum’a
-
-
-Singleton 2 - step by step:
-1. Stwórz klasę która posiada metodę ładowania wartości z pliku. W tej metodzie przeczytaj 4 linie pliku, wyciągnij z tych linii te 4 wartości i przypisz je do zmiennych lokalnych.
-2. Stwórz klasę MySettings która jest singletonem (przyjmij dowolną formę) i dodaj w niej odpowiednie pola, a następnie gettery i settery
-3. Stwórz maina, w mainie najpierw stwórz instancję klasy która ładuje wartości z pliku konfiguracyjnego
-4. Zmodyfikuj metodę ładującą wartości z pliku konfiguracyjnego. Spraw aby wartości (po załadowaniu) zostały załadowane do singletona posługując się jego setterami.
-5. Zaimplementuj grę (logikę losowania liczb, wyświetlania wszystkiego itd.)
-
-
-Zadanie: https://bitbucket.org/javagda5/designpatterns/src/57bf2e0aa29b19915ed141381aab166dbdb894bd/src/main/java/com/sda/dp/singleton/ex2/settingsloader/?at=master
-
-
-
-
+używając enum
 
 
 Zadanie 3:

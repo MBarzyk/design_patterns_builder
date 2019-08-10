@@ -8,7 +8,7 @@ import java.io.IOException;
 public class FileLoader {
     public void configReader() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("calculus_config.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("data/calculus_config.txt"));
 
             String line1 = reader.readLine();
             String line2 = reader.readLine();

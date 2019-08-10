@@ -1,0 +1,4 @@
+zakres_liczby_1=100
+zakres_liczby_2=1000
+dostepne_dzialania=*/+-
+ilosc_rund=15
