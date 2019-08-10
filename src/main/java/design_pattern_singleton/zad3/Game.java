@@ -16,7 +16,7 @@ public class Game {
         do {
             validate();
         }
-        while (player_1.getPlayersCards() != null || player_2.getPlayersCards() != null);
+        while (player_1.getPlayersCards().size() > 1 || player_2.getPlayersCards().size() > 1);
         System.out.println(player_1.getPlayersCards().size());
         System.out.println(player_2.getPlayersCards().size());
     }
