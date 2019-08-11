@@ -11,8 +11,7 @@ public class Deck {
     public Deck() {
         deckOfCards = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
-           deckOfCards.addAll((Arrays.asList(Cards.DEUCE, Cards.THREE, Cards.FOUR, Cards.FIVE, Cards.SIX,
-                    Cards.SEVEN, Cards.EIGHT, Cards.NINE, Cards.TEN, Cards.JACK, Cards.QUEEN, Cards.KING, Cards.ACE)));
+           deckOfCards.addAll((Arrays.asList(Cards.values())));
         }
         Collections.shuffle(deckOfCards);
     }
