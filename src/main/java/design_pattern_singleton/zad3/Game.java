@@ -15,7 +15,7 @@ public class Game {
 
     public void letsPlayWar() {
         initializeGame();
-        while (player_1.getPlayersCards().size() >=1 || player_2.getPlayersCards().size() >=1) {
+        while (!player_1.getPlayersCards().isEmpty() || !player_2.getPlayersCards().isEmpty()) {
             playRound();
         }
 
